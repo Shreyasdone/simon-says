@@ -39,6 +39,7 @@ let userFlash = (btn) => {
   }, 250);
 }
 
+
 let check = (idx) => {
   if(userSeq[idx] == gameSeq[idx]) {
     if(userSeq.length == gameSeq.length) {
